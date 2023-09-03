@@ -1,0 +1,2 @@
+# DUCTF 2023 Writeup (6 Beginner Challenges)
+I spent around 6 hours during my busy weekend to participate in DUCTF 2023. Although the number of challenges I have solved isn't that significant, I still want to share about my own experience as well as how I approach the tasks with detail. This repository will contain the write-up of my attempts on 6 of the beginner tasks. As a first time CTF competition participant, I am glad that I could learn and complete these challenges.
