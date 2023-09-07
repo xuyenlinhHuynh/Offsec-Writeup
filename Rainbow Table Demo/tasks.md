@@ -13,7 +13,7 @@ Task 2. Again I am Jon the hacker. I have been offered a position as a penetrati
              `springroll_hashing_table.txt` -- the pre-computed hash table using the `springroll_hashing` algorithm.
 
 Task 3. Hey, I am Jon again. I failed to crack the following hash: `9e9f7d6b9992` using rainbow table attack. Can you tell me some potential reasons why I failed in this case?
-    - Files: `secret_hash.txt` -- The hash of the password\n.
+    - Files: `secret_hash.txt` -- The hash of the password.
              `springroll_hashing_table.txt` -- the pre-computed hash table using the `springroll_hashing` algorithm.
 
 Task 4. Suppose the password in this company has to start with `Jon`. I found the `springroll_hashing` algorithm and I think this is not a good hashing algorithm... It means that I can turn this `hashing` algorithm to a normal `encryption` algorithm, and develop a `decryption` algorithm to break it. Can you help me to write one and solve the hash in `secret_hash.txt` ?
