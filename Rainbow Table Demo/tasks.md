@@ -23,3 +23,10 @@ Task 4. Suppose the password in this company has to start with `Jon`. I found th
 
     - Files: `secret_hash.txt` -- The hash of the password.
              `springroll_hashing.py` -- The hashing algorithm.
+
+Task 5. Wait... If I can `decrypt` the ciphertext, then I think I can break the password given on Task 3 and login as admin!!!! Can you help me to crack it?
+
+    - Files: `secret_hash.txt` -- The hash of the password.
+             `springroll_hashing.py` -- The hashing algorithm.
+             `login.c` -- The login page (To run this, following these steps: gcc login.c --> ./a.out [password]). Note that if you wish, you can crack the password by playing around with binary ;) (reverse engineering).
+ 
