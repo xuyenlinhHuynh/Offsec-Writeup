@@ -28,5 +28,6 @@ Task 5. Wait... If I can `decrypt` the ciphertext, then I think I can break the 
 
     - Files: `secret_hash.txt` -- The hash of the password.
              `springroll_hashing.py` -- The hashing algorithm.
-             `login.c` -- The login page (To run this, following these steps: gcc login.c --> ./a.out [password]). Note that if you wish, you can crack the password by playing around with binary ;) (reverse engineering).
+             `login.c` -- The login page (To run this, following these steps: gcc login.c --> ./a.out [password]). 
+             Note that if you wish, you can crack the password by playing around with binary ;) (reverse engineering).
  
