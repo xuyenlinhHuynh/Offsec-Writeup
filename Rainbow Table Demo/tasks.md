@@ -30,4 +30,8 @@ Task 5. Wait... If I can `decrypt` the ciphertext, then I think I can break the 
              `springroll_hashing.py` -- The hashing algorithm.
              `login.c` -- The login page (To run this, following these steps: gcc login.c --> ./a.out [password]). 
              Note that if you wish, you can crack the password by playing around with binary ;) (reverse engineering).
+
+ADDITIONAL FILES:
+- `springroll_lookup.sh`: Purpose -- to match the given hash to a plaintext password in the rainbow table; if not found, it will print out "Not Found". Format -- bash file. Usage -- ./springroll_lookup.sh \[hash\]. Note -- when running the file, make sure it is in the same folder/repository/directory as the rainbow table (hash table).
+
  
