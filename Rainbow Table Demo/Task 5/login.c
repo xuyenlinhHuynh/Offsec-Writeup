@@ -26,12 +26,7 @@ int main(int argc, char** argv){
     passwd[2] = passwd[strlen(passwd)-1] % 0x0A + passwd[2] + strlen(passwd) * 0x05;
     passwd[3] = 64 & 'A';
     passwd[4] = passwd[4] - run[2] + 67;
-    int x = passwd[5];
-    if(x==103){
-        passwd[5] = 104;
-    } else{
-        passwd[5] = 0xed & 0x74;
-    }
+    passwd[5] = passwd[5] + 1; 
 
     // Check if the password is correct
     if(strcmp(passwd, "9Ns@Ph")==0){
