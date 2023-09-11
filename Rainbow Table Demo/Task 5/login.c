@@ -16,7 +16,7 @@ int main(int argc, char** argv){
     }
 
     // Security by obscurity: use binary operators to hide the actual password
-    // If you wish: solve this task as "pwn" or "rev" ;)
+    // If you wish: solve this task as "rev" ;)
     char* run = argv[0];
     char* passwd = argv[1];
     printf("Login password: %s", passwd);
