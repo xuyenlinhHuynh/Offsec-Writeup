@@ -6,7 +6,7 @@ int main(int argc, char** argv){
     // Break the program if the password hasn't been supplied or the password length is larger than 6
     if(argc < 2){
         fprintf(stderr, "Bro, gimme your password to login.\n");
-        fprintf(stderr, "Usage: ./login [your_password]\n");
+        fprintf(stderr, "Usage: ./a.out [your_password]\n");
         exit(1);
     }
 
