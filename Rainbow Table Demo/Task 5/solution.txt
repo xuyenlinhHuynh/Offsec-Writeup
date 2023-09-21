@@ -1,0 +1,6 @@
+This algorithm can be cracked easily since the range of the key is significantly small. An attacker can find output
+all possible plaintext passwords by feeding all the keys from 1 to 50. After that, the attacker can try each of these
+passwords on the login page that then eventually find out which one is the correct password (i.e. login successfully).
+Solution file: decryption_general.py
+Bash script for bruteforcing: for hash in $(python3 decryption_general.py); do ./a.out $hash | grep Congratulation; done;
+The correct password is: stR@ng

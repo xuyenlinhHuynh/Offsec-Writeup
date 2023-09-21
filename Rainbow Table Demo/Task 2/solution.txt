@@ -1,0 +1,6 @@
+- Method 1: Ctrl + F 
+- Method 2: Bash scripting (running in the main directory)
+for hash in $(cat "Task 2/passwd_only_db.txt"); do grep $hash springroll_hashing_table.txt | grep jon123; done;
+
+key = 15 --- jon123: 797e7d404142
+Yes. Jon has been registered in the system. So probably the sign-in mechanism failed to authenticate Jon.

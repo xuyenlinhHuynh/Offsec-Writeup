@@ -1,0 +1,5 @@
+Try the following bash script but no output is returned: grep 9e9f7d6b9992 springroll_hashing_table.txt
+
+The most obvious reason is the hash came from a strong password (complexity and length), and normally the pre-computed hash
+table only contain well-known (common) password hashes. So, random, long and complex password will be one of the effective 
+prevention from rainbow table attack.

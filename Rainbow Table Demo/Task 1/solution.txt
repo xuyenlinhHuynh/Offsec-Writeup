@@ -1,0 +1,13 @@
+- Method 1: Ctrl + F 
+- Method 2: Bash scripting (running in the main directory)
+for hash in $(cat "Task 1/passwd_only_db.txt"); do grep $hash springroll_hashing_table.txt; done;
+
+user1: passwd (key = 50)
+user2: noname (key = 50)
+user3: losers (key = 33)
+user4: admin0 (key = 35)
+user5: notfun (key = 19)
+user6: crying (key = 50)
+user7: python (key = 30)
+user8: abc123 (key = 25)
+user9: qwerty (key = 18)

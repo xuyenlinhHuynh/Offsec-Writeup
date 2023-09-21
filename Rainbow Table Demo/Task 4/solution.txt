@@ -1,0 +1,5 @@
+Method: brute-force the key used in the hashing algorithm since we know the range of the key.
+Solution file: decryption.py
+
+The password is:  Jon@2k
+The key is:  29
