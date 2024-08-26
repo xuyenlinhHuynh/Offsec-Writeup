@@ -4,4 +4,3 @@ The most obvious reason is the hash came from a strong password (complexity and 
 table only contain well-known (common) password hashes. So, random, long and complex password will be one of the effective 
 prevention from rainbow table attack.
 
-My password: ABCNTechExpo2024
